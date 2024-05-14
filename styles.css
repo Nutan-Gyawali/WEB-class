@@ -26,9 +26,11 @@ li{
     margin-bottom: 20px;
         background-color: rgb(172, 141, 141);
         inset-inline-start: 2px;
-        
+        padding: 4px;
+        margin: 10px;
         display: inline;
 }
+
 
 tr:nth-child(odd) {
     background-color: lightblue;
