@@ -5,16 +5,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Array</title>
+    <style>
+        * {
+            color: red;
+        }
+    </style>
 </head>
 
 <body>
     <script>
-        var fruits = ["apple", "banana", "orange", "papaya"];
-        var i;
-        for (i = 0; i < fruits.length; i++) {
-            document.write(fruits[i], "\n");
-        }
+        // var fruits = ["apple", "banana", "orange", "papaya", "mango"];
+        // var i;
+        // console.log(fruits.length);
+        // for (i = 0; i < fruits.length; i++) {
+        //     document.write(fruits[i], "\n");
+        // }
+
+        // //console.log(fruits[fruits.length - 2]);
+
+        // // for (var j of fruits) {
+        // //     console.log(j);
+        // // }
+
+        // var colors = ["red", "green", "blue"];
+        // colors.push("yellow")//adding elements to the end 
+
+        // colors.unshift("WHITE");//add elements to the beginning 
+
+        // for (var k of colors) {
+        //     console.log(k);
+        // }
+
+        // var person =
+        // {
+        //     name: "John Nash",
+        //     age: 54,
+        //     gender: "Male",
+        //     displayName: function () {
+        //         console.log(this.age);
+        //     }
+        // }
+        // console.log(person.displayName());
+        // console.log(person);
+
+        var str1 = new String("this is string one");
+        var str2 = new String("the is string two");
+        var str3 = str1.concat(str2);
+
+        console.log(str1);
+        console.log(str2);
+        console.log(str3);
+
+        var splitted = str1.split(" ", 8);
+        console.log(splitted);
     </script>
+
+    
 
 </body>
 

@@ -1,4 +1,4 @@
-li{
+/* li{
     background-color: bisque;
     text-decoration: none;
     list-style-type: square;
@@ -38,4 +38,46 @@ tr:nth-child(odd) {
 
 tr:nth-child(even) {
     background-color: lightgreen;
+} */
+
+body {
+    background-color: antiquewhite;
+}
+
+#title {
+    margin-left: 500px;
+}
+
+.formelement {
+    margin: 8px 0;
+    margin-top: 2opx;
+    margin-bottom: 10px;
+    padding: 3px;
+
+}
+
+form {
+    margin-left: 10%;
+    border-radius: 10px;
+    border: 3px solid;
+    width: 550px;
+    background-color: rgb(231, 241, 241);
+
+}
+
+label {
+    padding-left: 20px;
+    width: 300px;
+    vertical-align: top;
+    font-size: large;
+
+}
+
+#submit {
+    background-color: rgb(183, 28, 28);
+    color: white;
+    width: 80;
+    cursor: pointer;
+
+    ;
 }
