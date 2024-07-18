@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do-While Loop Example</title>
+</head>
+
+<body>
+    <div id="result"></div>
+
+    <script>
+        let count = 1;
+        let result = '';
+
+        do {
+
+            result += "<br>The number is " + count + '<br>';
+            count++;
+        } while (count <= 10);
+
+        document.getElementById('result').innerHTML = result;
+    </script>
+</body>
+
+</html>

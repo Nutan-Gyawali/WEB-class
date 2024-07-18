@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All array methods</title>
+</head>
+
+<body>
+    <div id="array"></div>
+
+    <div id="sort"></div>
+
+    <div id="concat"></div>
+
+    <div id="length"></div>
+
+
+    <script>
+        let arrayString = ["cat", "dog", "fish", "shark", "tiger", "lion"];
+        let arrayInt = [1, 7, 3, 5, 32, 98];
+
+        let content = 'String Array: ' + arrayString.join(', ') + '<br>Integer Array: ' + arrayInt.join(', ');
+        document.getElementById("array").innerHTML = content;
+
+
+        let arraysort = arrayInt.sort();
+        let arraysorts = arrayString.sort();
+        let sort = 'String Array: ' + arraysorts.join(', ') + '<br>Integer Array: ' + arraysort.join(', ');
+        document.getElementById("sort").innerHTML = sort;
+
+        let concat = arrayInt.concat(arrayString);
+        document.getElementById("concat").innerHTML = "concatenated:   " + concat;
+
+        let length = concat.length;
+        document.getElementById("length").innerHTML = length;
+
+
+    </script>
+</body>
+
+</html>
