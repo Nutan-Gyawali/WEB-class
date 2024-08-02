@@ -10,20 +10,25 @@
 <body>
 
 </body>
-
 <script>
-    const numbers = [1, 2, 3, 4, 5];
-    const squares = numbers.map(square);
+    let array = [2, 4, 6, 8, 10];
+
+    let square = array.map(squares);
+
+    console.log(array.map(cubes));
 
 
 
-
-    function square(element) {
+    function squares(element) {
         return Math.pow(element, 2);
     }
 
+    function cubes(element) {
+        return Math.pow(element, 3);
+    }
 
-    console.log(squares);
+    console.log(array);
+    console.log(square);
 </script>
 
 </html>
